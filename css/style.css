@@ -66,6 +66,9 @@ Blue button: #7187d9*/
 .align-center{
     align-items: center;
 }
+.align-flex-start{
+    align-items: flex-start;
+}
 .row-reverse{
     flex-direction: row-reverse;
 }
@@ -77,6 +80,9 @@ Blue button: #7187d9*/
 }
 .column-reverse{
     flex-direction: column-reverse;
+}
+.column{
+    flex-direction: column;
 }
 /*ID Classes*/
 #hero{
@@ -118,6 +124,13 @@ div h1,p{
 }
 ul{
     list-style: none;
+}
+
+ul li:first-child{
+    color: var(--Blue-button);
+}
+li{
+    padding-top: 5px;
 }
 
 /*Backgrounds*/
@@ -164,3 +177,18 @@ ul{
 .padding-left-30px{
     padding-left: 30px;
 }
+
+/*img*/
+.italy-flag{
+    width: 20px;
+    height: 13px;
+    padding-right: 3px;
+}
+
+/*Select*/
+select{
+    background-color: var(--Black-button);
+    border-style: none;
+    color: white;
+}
+
