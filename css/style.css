@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*Debug class*/
 .debug{
     border: 1px solid red;
@@ -14,19 +15,38 @@ Light blue: #255ce8
 Black button: #222629
 Light grey: #f5f5f5
 Blue button: #7187d9*/
+/*Variables*/
+:root{
+    --Light-blue: #255ce8;
+    --Black-button:#222629;
+    --Light-grey:#f5f5f5;
+    --Blue-button:#7187d9;
+}
 
 /*Container*/
-
 .container-normal{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 10px;
 }
-
 .container-small{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
+}
+
+/*Font*/
+.whitney-normal{
+    font-family: 'Whitney', sans-serif;
+}
+.whitney-semibold{
+    font-family: 'Whitney Semibold', sans-serif;
+}
+.whitney-book{
+    font-family: 'Whitney Book', sans-serif;
+}
+.whitney-light{
+    font-family: 'Whitney Light', sans-serif;
 }
 
 /*Flex*/
@@ -41,16 +61,17 @@ Blue button: #7187d9*/
     align-items: center;
 }
 
-
-
-
-:root{
-    --Light-blue: #255ce8;
-    --Black-button:#222629;
-    --Light-grey:#f5f5f5;
-    --Blue-button:#7187d9;
+/*ID Classes*/
+#hero{
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*Selectors*/
 body{
     padding: 0 10px;
     font-family: 'Whitney', sans-serif;
@@ -76,50 +97,6 @@ div h1,p{
 ul{
     list-style: none;
 }
-#hero{
-    background-image: url(../img/jumbo.png);
-    height: 600px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.h-main{
-    height: 23px;
-}
-
-.sez1main{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-.images{
-    padding-right: 60%;
-}
-.place{
-    padding-right: 100%;
-}
-.meet{
-    padding-right: 40%;
-}
-
-.btn{
-    display: inline-block;
-    padding: 9px 16px;
-    border-radius: 27px;
-    text-decoration: none;
-}
-
-.btn-wht{
-    background-color: white;
-    color: var(--Black-button);
-}
-
-.btn-blck{
-    background-color: var(--Black-button);
-    color: white;
-}
 
 /*Backgrounds*/
 .bg-blue{
@@ -132,20 +109,19 @@ ul{
     background-color: var(--Black-button);
 }
 
-
-
-.whitney-normal{
-    font-family: 'Whitney', sans-serif;
+/*Other classes*/
+/*Buttons*/
+.btn{
+    display: inline-block;
+    padding: 9px 16px;
+    border-radius: 27px;
+    text-decoration: none;
 }
-
-.whitney-semibold{
-    font-family: 'Whitney Semibold', sans-serif;
+.btn-wht{
+    background-color: white;
+    color: var(--Black-button);
 }
-
-.whitney-book{
-    font-family: 'Whitney Book', sans-serif;
-}
-
-.whitney-light{
-    font-family: 'Whitney Light', sans-serif;
+.btn-blck{
+    background-color: var(--Black-button);
+    color: white;
 }
