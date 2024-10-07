@@ -57,6 +57,9 @@ Blue button: #7187d9*/
 .display-flex{
     display:flex;
 }
+.jc-center{
+    justify-content: center;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -69,7 +72,12 @@ Blue button: #7187d9*/
 .align-self-flex-start{
     align-self: flex-start;
 }
-
+.align-self-center{
+    align-self: center;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
 /*ID Classes*/
 #hero{
     background-image: url(../img/jumbo.png);
@@ -138,6 +146,10 @@ ul{
 .btn-blck{
     background-color: var(--Black-button);
     color: white;
+}
+.btn-blue{
+    background-color: var(--Blue-button);
+    color:  white;
 }
 
 /*Padding:*/
