@@ -132,7 +132,10 @@ ul li:first-child{
 li{
     padding-top: 5px;
 }
-
+hr{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /*Backgrounds*/
 .bg-blue{
     background-color: var(--Light-blue);
