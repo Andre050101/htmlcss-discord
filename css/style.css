@@ -17,7 +17,7 @@ Blue button: #7187d9*/
 
 /*Container*/
 
-.conatiner-normal{
+.container-normal{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 10px;
@@ -48,10 +48,6 @@ Blue button: #7187d9*/
 body{
     padding: 0 10px;
     font-family: 'Whitney', sans-serif;
-}
-header{
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 header ul li a{
@@ -108,12 +104,7 @@ ul{
 .background-footer{
     background-color: var(--Black-button);
 }
-#logo{
-    padding-left: 8%;
-}
-#accedi{
-    padding-right: 8%;
-}
+
 
 
 .whitney-normal{
