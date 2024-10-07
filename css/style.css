@@ -195,3 +195,23 @@ select{
     color: white;
 }
 
+/*Hover*/
+.become-black-btn:hover{
+    background-color: var(--Black-button);
+    color: white;
+}
+
+.become-white-btn:hover{
+    background-color: white ;
+    color: var(--Black-button);
+}
+
+.become-white-blue-btn:hover{
+    background-color: white ;
+    color: var(--Blue-button);
+}
+
+.become-black-blue-btn:hover{
+    background-color: var(--Black-button) ;
+    color: var(--Blue-button);
+}
