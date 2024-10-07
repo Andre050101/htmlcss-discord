@@ -1,0 +1,98 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid red;
+}
+/*Colors:
+Light blue: #255ce8
+Black button: #222629
+Light grey: #f5f5f5
+Blue button: #7187d9
+
+
+
+
+*/
+:root{
+    --Light-blue: #255ce8;
+    --Black-button:#222629;
+    --Light-grey:#f5f5f5;
+    --Blue-button:#7187d9;
+}
+
+body{
+    padding: 0 10px;
+    font-family: 'Whitney', sans-serif;
+}
+
+header{
+    color: white;
+}
+
+.head{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    height: 30px;
+    align-items: center;
+}
+.hero{
+    display:flex;
+    height: 23px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.h-main{
+    height: 23px;
+}
+
+.sez1main{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.images{
+    padding-right: 60%;
+}
+.place{
+    padding-right: 100%;
+}
+.meet{
+    padding-right: 40%;
+}
+
+
+.background-color-header{
+    background-color: var(--Light-blue);
+}
+.background-odd-main-layers{
+    background-color: var(--Light-grey);
+}
+.background-footer{
+    background-color: var(--Black-button);
+}
+
+
+
+.whitney-normal{
+    font-family: 'Whitney', sans-serif;
+}
+
+.whitney-semibold{
+    font-family: 'Whitney Semibold', sans-serif;
+}
+
+.whitney-book{
+    font-family: 'Whitney Book', sans-serif;
+}
+
+.whitney-light{
+    font-family: 'Whitney Light', sans-serif;
+}
