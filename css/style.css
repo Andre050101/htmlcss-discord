@@ -15,6 +15,10 @@ Light blue: #255ce8
 Black button: #222629
 Light grey: #f5f5f5
 Blue button: #7187d9*/
+
+.white{
+    color: white;
+}
 /*Variables*/
 :root{
     --Light-blue: #255ce8;
@@ -71,10 +75,15 @@ Blue button: #7187d9*/
     align-items: center;
 }
 
+#section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*Selectors*/
 body{
     padding: 0 10px;
-    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
     font-size: 18px;
 }
 
@@ -92,7 +101,7 @@ div p{
     padding-bottom: 10px;
 }
 div h1,p{
-    color: white;
+    color: black;
 }
 ul{
     list-style: none;
