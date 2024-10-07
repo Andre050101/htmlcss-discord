@@ -23,6 +23,12 @@ Blue button: #7187d9*/
     padding: 20px 10px;
 }
 
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 /*Flex*/
 .display-flex{
     display:flex;
@@ -48,6 +54,7 @@ Blue button: #7187d9*/
 body{
     padding: 0 10px;
     font-family: 'Whitney', sans-serif;
+    font-size: 18px;
 }
 
 header ul li a{
@@ -56,14 +63,26 @@ header ul li a{
     text-decoration: none;
 }
 
+h1{
+    padding-bottom: 30px;
+    font-size: 3em;
+}
+div p{
+    padding-bottom: 10px;
+}
+div h1,p{
+    color: white;
+}
 ul{
     list-style: none;
 }
-.hero{
-    display:flex;
-    height: 23px;
-    margin-left: 25%;
-    margin-right: 25%;
+#hero{
+    background-image: url(../img/jumbo.png);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .h-main{
@@ -89,9 +108,17 @@ ul{
     display: inline-block;
     padding: 9px 16px;
     border-radius: 27px;
+    text-decoration: none;
+}
+
+.btn-wht{
     background-color: white;
     color: var(--Black-button);
-    text-decoration: none;
+}
+
+.btn-blck{
+    background-color: var(--Black-button);
+    color: white;
 }
 
 /*Backgrounds*/
