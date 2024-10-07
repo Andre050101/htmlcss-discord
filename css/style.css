@@ -57,12 +57,17 @@ Blue button: #7187d9*/
 .display-flex{
     display:flex;
 }
-
 .space-between{
     justify-content: space-between;
 }
 .align-center{
     align-items: center;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.align-self-flex-start{
+    align-self: flex-start;
 }
 
 /*ID Classes*/
@@ -76,8 +81,8 @@ Blue button: #7187d9*/
 }
 
 #section{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /*Selectors*/
@@ -133,4 +138,17 @@ ul{
 .btn-blck{
     background-color: var(--Black-button);
     color: white;
+}
+
+/*Padding:*/
+.padding-top-20px{
+    padding-top: 20px;
+}
+
+.padding-right-30px{
+    padding-right: 30px;
+}
+
+.padding-left-30px{
+    padding-left: 30px;
 }
